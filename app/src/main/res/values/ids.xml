@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editTextEventTitle" type="id" />
+    <item name="editTextDate" type="id" />
+    <item name="editTextDescription" type="id" />
+    <item name="btnSubmit" type="id" />
+</resources>

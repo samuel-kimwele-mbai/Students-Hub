@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <!-- About Us Title -->
+    <TextView
+        android:id="@+id/titleAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/textAboutDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleAbout"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="We are an association that aims at uniting the students."
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+
+    <TextView
+        android:id="@+id/titleMission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mission"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textMissionDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleMission"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="To sensitize university students Kitui County on the available resources on how to access and utilize them.
+"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+
+    <TextView
+        android:id="@+id/titleVision"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vision"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textVisionDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleVision"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text=" To unite and mobilize university students at county level towards attaining the visionary county’s economic development.
+"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>

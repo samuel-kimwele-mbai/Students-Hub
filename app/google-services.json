@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "452228404272",
+    "project_id": "students-hub-e53c1",
+    "storage_bucket": "students-hub-e53c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452228404272:android:413606b51655f31e7809f5",
+        "android_client_info": {
+          "package_name": "com.example.studentshub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBUTJUq0ChRv8ftiIJK-4fIsI8CMOviyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
